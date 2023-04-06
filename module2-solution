@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Design Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section id="section1">
+      <div class="section-title">Chicken</div>
+      <div class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum consectetur ex, sit amet bibendum velit. Nulla facilisi. Pellentesque iaculis nulla et mauris aliquet sagittis. Fusce ac urna dictum, posuere elit ac, malesuada lacus.</div>
+    </section>
+    <section id="section2">
+      <div class="section-title">Beef</div>
+      <div class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum consectetur ex, sit amet bibendum velit. Nulla facilisi. Pellentesque iaculis nulla et mauris aliquet sagittis. Fusce ac urna dictum, posuere elit ac, malesuada lacus.</div>
+    </section>
+    <section id="section3">
+      <div class="section-title">Sushi</div>
+      <div class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum consectetur ex, sit amet bibendum velit. Nulla facilisi. Pellentesque iaculis nulla et mauris aliquet sagittis. Fusce ac urna dictum, posuere elit ac, malesuada lacus.</div>
+    </section>
+  </div>
+</body>
+</html>
