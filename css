@@ -1,0 +1,71 @@
+/* Default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 992px;
+  margin: auto;
+}
+
+section {
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Desktop view */
+@media (min-width: 992px) {
+  section {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1, #section2 {
+    width: 50%;
+    float: left;
+  }
+  #section3 {
+    width: 100%;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+    float: none;
+  }
+}
+
+/* Optional: Font family and size */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 1.75em;
+}
+
+.section-title {
+  font-size: 1.25em;
+}
+
+.section-text {
+  font-size: 1em;
+}
